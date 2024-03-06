@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --fonte-primaria: 'Inter', sans-serif;
+
+    --cor-primaria: #F3F5FC; 
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #FFFFFF;
+    --cor-quartenaria: #D8DFE8;
+    --cor-quintenaria: #495057;
+
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-primaria);
+}
+
+.logo {
+    width: 7.5rem; /*120px*/
+    height: 3rem; /*48px*/
+    padding: 2.5rem; /*40px*/
+}
+
+.text-input {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 2rem; /*32px*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /*48px*/
+
+    width: 42.5rem; /*680px*/
+    height: 18rem; /*288px*/
+    position: absolute;
+    top: 10.5rem; /*168px*/
+    left: 15rem; /*240px*/
+    
+}
+
+.alert-text {
+    width: 244px; /*16 do botão + 28 do texto */
+    height: 18px;
+    color: var(--cor-quintenaria);
+    font-family: var(--fonte-primaria);
+    font-size: 0.7rem; /*12px*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /*18px*/
+
+    opacity: 0.8;
+    position: absolute;
+    top: 42rem; /*683px*/
+    left: 15rem; /*240px*/
+
+    display: flex;
+    justify-content: space-evenly;
+}
