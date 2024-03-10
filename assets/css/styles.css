@@ -54,12 +54,13 @@ body {
     padding: 5px; 
     background-color: var(--cor-primaria);
     border: var(--cor-primaria);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     text-wrap: wrap;
     resize: none;
     color:var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
 }
 
 #informacao {
@@ -92,6 +93,8 @@ body {
     font-weight: 400;
     justify-content: center;
     border: var(--cor-secundaria) solid 1px;
+   
+    
 }
 
 #cripto {
